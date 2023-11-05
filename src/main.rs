@@ -48,7 +48,7 @@ impl Application for Editor {
         )
     }
     fn title(&self) -> String {
-        String::from("Rexhent's iced text editor!")
+        String::from("Rextext")
     }
     fn update(&mut self, message: Message) -> Command<Message> {
         match message {
